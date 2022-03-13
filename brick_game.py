@@ -220,10 +220,12 @@ class Brick:
                 self.display()
             
           
-            
-b = Brick(7)
-b.getInput()
-b.play()             
+  
+if __name__ == "__main__":
+    s = int(input("Enter size of NxN matrix: "))          
+    b = Brick(s)
+    b.getInput()
+    b.play()             
             
             
             
